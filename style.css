@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+  	font-family: "Exo 2", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/*background-color: #000;*/
+	background-image: url(https://cdn.pixabay.com/photo/2018/12/02/02/06/nebula-3850606_1280.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 40px;
+	margin: 2%;
+	/*esse fonte size é o elemento pai*/
+	font-size: 14px;
+}
+
+h1 {
+	color:  #8A2BE2;
+	text-align: center;
+	font-size: 2em;
+	/*acumula o shadown*/
+	text-shadow: 0px 0px 5px #000, 10px 10px 10px #8A2BE2;
+}
+
+h1:hover {
+	color: #fff;
+	font-size:  2.2em;
+}
+
+hr {
+	margin-top: 20px;
+	border: 1px solid #8A2BE2;
+}
+
+p {
+	text-align: justify;
+	color: #fff;
+	/*esse font-size diz que é 1.2 em relação ao tamanho do elemento pai*/
+	font-size:  1.2em;
+	line-height: 1.5em;
+	margin:  10px 0px;
+	/*indentar o início dos parágrafos*/
+	/*text-indent: 50px;*/
+}
+
+#leoa {
+	transform: scaleX(-1);
+}
+
+img {
+	border-radius: 30px;
+	width: 80%;
+	margin: 30px 0px;
+	/*filter:  contrast(110%);*/
+	filter: saturate(150%);
+	filter: sepia(150%);
+	/*esse filtro colore a imagem com uma cor que pode variar até 360 graus
+	filter: hue-rotate(190deg);*/
+}
+
+img:hover {
+	filter: sepia(0);
+	filter: saturate(100%);
+	/*esacala normal da imagem é 1.0*/
+	transform: scale(1.05);
+}
+
+div img {
+	width: 50%;
+}
+
+p b {
+	color: #8A2BE2;
+}
